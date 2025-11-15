@@ -1,0 +1,139 @@
+.back-1 {
+    background: linear-gradient(335deg, #43E3C7 -74.61%, #1EB090 6.9%, #00366A 84.49%);
+}
+.slide_scroller-section, .slide_scroller-section.slide-1 {
+    justify-content: center;
+    align-items: flex-start;
+	width: 100vw;
+}
+h2 {
+	color: var(--white);
+    letter-spacing: .5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+@media (min-width:1024px) {
+    .sidebar_menu {
+	background: transparent !important;
+	border-right: 1px solid #21577F;
+}
+}
+.slide-1_animation {
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-left: 100px;
+	padding: 0px;
+	width: 100%;
+	position: relative;
+	height: 500px !important;
+}
+.slide-2 h2 {
+	margin-top: 50px;
+}
+.slider_body-text {
+    max-width: 600px;
+    float: left;
+}
+.left_home {
+	width: 600px;
+	float: left;
+}
+.right_home {
+	width: 400px;
+	float: left;
+}
+
+.slide_scroller-section .top_home {
+	margin-top: 50px;
+
+}
+p.number {
+	margin: 0px 0px 10px;
+}
+.progress_container {
+    width: 200px;
+    height: 5px;
+    background: #809BB5;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.progress_bar {
+    height: 100%;
+    background: #fff;
+    border-radius: 25px;
+    transition: width 0.5s ease-in-out;
+}
+.progress_bar.width20 {
+	width: 20%;
+}
+.progress_bar.width40 {
+	width: 40%;
+}
+.progress_bar.width60 {
+	width: 60%;
+}
+.progress_bar.width80 {
+	width: 80%;
+}
+p.menu_li {
+	color: #6E93AC;
+	font-size: 14px;
+	font-weight: 500;
+	margin: 0px;
+}
+
+.flex_text {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: row;
+}
+.vertical_text, .right_text {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	height: 200px;
+}
+.vertical_text {
+	flex-direction: row;
+}
+p.transform_3d {
+    display: block;
+    height: 100%;
+    margin: 0px;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    width: 50px;
+    text-align: center;
+}
+p.transform_3d.last {
+    border-left: 0px solid #fff;
+}
+.transform_3d span {
+	transform: rotate(270deg);
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+	position: relative;
+    top: 20px;
+}
+.right_text {
+	padding-left: 30px;
+}
+.right_text li {
+	font-size: 14px;
+}
+.scene_2 {
+    z-index: 2;
+    background: transparent;
+}
+.slide_scroller-section.slide-4, .slide_scroller-section.slide-5, .slide_scroller-section.slide-6 {
+    background: transparent;
+}
