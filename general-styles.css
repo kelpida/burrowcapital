@@ -3846,7 +3846,7 @@ display: inline-block;
   padding-top: 200px;
   position: absolute;
   inset: 0% 0% auto;
-  transform: translate(0, 28px);
+  /* transform: translate(0, 28px); */
 }
 
 .back-link {
