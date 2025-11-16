@@ -237,7 +237,7 @@
 		<div class="sidebar_menu-wrap">
 			<div class="sidebar_menu-inner">
 				<div class="sidebar_menu-text">
-					<a data-w-id="8a6d156a-72d3-d401-a666-c9cc6773730a" href="/" aria-current="page"
+					<a data-w-id="8a6d156a-72d3-d401-a666-c9cc6773730a" href="#" aria-current="page"
 						class="infinity_logo-link w-inline-block w--current">
 						<img src="./images/logos/icon.svg" loading="lazy" alt="Burrow Capital" class="logo_desktop" />
 					</a>
@@ -256,7 +256,7 @@
 		</div>
 		<div class="sidebar_menu">
 			<div class="sidebar_menu-internal">
-				<a data-w-id="8a6d156a-72d3-d401-a666-c9cc6773730a" href="/" aria-current="page"
+				<a data-w-id="8a6d156a-72d3-d401-a666-c9cc6773730a" href="#" aria-current="page"
 					class="infinity_logo-link w-inline-block w--current">
 					<img src="./images/logos/icon.svg" loading="lazy" alt="Burrow Capital" class="logo_desktop" />
 				</a>
@@ -537,8 +537,7 @@
 			<div class="back-1"></div>
 		</div>
 		<div class="homepage_banner-wrapper">
-			<a href="#contact_us-pane" id="openContactBtn" class="homepage_bannner-boundary w-inline-block">Contact
-				Us</a>
+			<div class="openContactBtn homepage_bannner-boundary w-inline-block" style="color:#ffffff;">Contact Us</div>
 		</div>
 		<div data-w-id="9ab96e23-f3e9-457a-ea28-d99bc6f99bfc" class="side-scroll-wrapper hide-on-device">
 			<div class="side-scroll__track">
@@ -1012,6 +1011,15 @@
 				// Add scrolling class only to the currently active section
 				if (currentActive) currentActive.classList.add(scrollingClass);
 			});
+			document.querySelector('.openContactBtn').addEventListener('click', function(e) {
+  e.preventDefault();
+  const wrap = document.querySelector('.contact_us-wrap.home');
+  if (wrap) {
+    wrap.style.transform = 'translateX(0)';
+	wrap.style.background = "#00366A";
+	wrap.style.width="calc(100vw - 200px)"
+  }
+});
 		});
 		document.querySelector('.back-to-top').addEventListener('click', function (e) {
 			e.preventDefault();
