@@ -237,7 +237,7 @@
 		<div class="sidebar_menu-wrap">
 			<div class="sidebar_menu-inner">
 				<div class="sidebar_menu-text">
-					<a data-w-id="8a6d156a-72d3-d401-a666-c9cc6773730a" href="#" aria-current="page"
+					<a data-w-id="8a6d156a-72d3-d401-a666-c9cc6773730a" href="#top" aria-current="page"
 						class="infinity_logo-link w-inline-block w--current">
 						<img src="./images/logos/icon.svg" loading="lazy" alt="Burrow Capital" class="logo_desktop" />
 					</a>
@@ -256,7 +256,7 @@
 		</div>
 		<div class="sidebar_menu">
 			<div class="sidebar_menu-internal">
-				<a data-w-id="8a6d156a-72d3-d401-a666-c9cc6773730a" href="#" aria-current="page"
+				<a data-w-id="8a6d156a-72d3-d401-a666-c9cc6773730a" href="#top" aria-current="page"
 					class="infinity_logo-link w-inline-block w--current">
 					<img src="./images/logos/icon.svg" loading="lazy" alt="Burrow Capital" class="logo_desktop" />
 				</a>
@@ -279,7 +279,7 @@
 			<div data-w-id="32471949-83d5-2430-e045-3a6eb5ea2b9a" class="device_hero-top">
 				<div class="right_home" style="margin-top:80px;">
 					<p class="bg_header" style="width:150px; padding:5px 10px;font-size:12px;margin-bottom: 20px;"><img
-							src="./images/star-04.svg" style="margin-right:10px;">Burrow Capital</p>
+							src="./images/star-04.svg" style="margin-right:5px;">Burrow Capital</p>
 				</div>
 				<div class="device-text-into">
 					<img src="./images/titles/investing_m.svg" loading="lazy"
@@ -571,8 +571,8 @@
 		<div class="home-page-wrap hide-on-device">
 			<div class="back-1"></div>
 		</div>
-		<div class="homepage_banner-wrapper">
-			<div class="openContactBtn homepage_bannner-boundary w-inline-block" style="color:#ffffff;">Contact Us</div>
+		<div class="homepage_banner-wrapper openContactBtn">
+			<div class="homepage_bannner-boundary w-inline-block" style="color:#ffffff;">Contact Us</div>
 		</div>
 		<div data-w-id="9ab96e23-f3e9-457a-ea28-d99bc6f99bfc" class="side-scroll-wrapper hide-on-device">
 			<div class="side-scroll__track">
@@ -620,11 +620,13 @@
 															class="image-bubble_image" />
 													</div>
 													<div class="back">
-														<p>Global crypto-payments, multi-currency accounts, real-time
-															transfers.
-															The next generation of crypto banking is here.</p>
-														<p><a href="https://kabru.com/"
-																target="_blank">www.kabru.com</a></p>
+														<p>Risk management, technical infrastructure, and consulting for
+															prop trading
+															companies.
+														</p>
+														<p><a href="https://crossguardfx.com"
+																target="_blank">https://crossguardfx.com</a>
+														</p>
 													</div>
 												</div>
 											</div>
@@ -1012,6 +1014,7 @@
 				</div>
 			</div>
 		</div>
+		
 		<div class="home_scroll-wheel">
 			<div class="scroll_wheel-rotate">
 				<img src="./images/scroller.png" loading="lazy" data-w-id="72cc985e-1c05-5096-4b18-2f0ed3c74686" />
@@ -1022,8 +1025,9 @@
 				data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg"
 				data-default-duration="2.6666666666666665" data-duration="0"></div>
 			<a href="#top" aria-label="Click here to return to the top of the page"
-				data-w-id="5875fa3c-293b-321a-4a1e-ff102bc35a6c" class="back-link w-inline-block" style="z-index: 999999;"><img
-					src="./images/back.png" loading="lazy" alt="Back Button" class="back-image" /></a>
+				data-w-id="5875fa3c-293b-321a-4a1e-ff102bc35a6c" class="back-link w-inline-block"
+				style="z-index: 999999;"><img src="./images/back.png" loading="lazy" alt="Back Button"
+					class="back-image" /></a>
 		</div>
 	</div>
 
@@ -1089,13 +1093,23 @@
 			document.querySelector('.openContactBtn').addEventListener('click', function (e) {
 				e.preventDefault();
 				const wrap = document.querySelector('.contact_us-wrap.home');
+				// const back = document.querySelector('.back-link');
+				// console.log("back",back);
+				
 				if (wrap) {
 					wrap.style.transform = 'translateX(0)';
 					wrap.style.background = "#00366A";
 					wrap.style.width = "calc(100vw - 105px)"
 				}
+				// if (back) {
+				// 	back.style.opacity = 1;
+				// 	back.style.width = "100%";
+				// 	back.style.height = "100%";
+				// }
+				
 			});
 		});
+		document.querySelector('.scene_3').remove();
 		document.querySelector('.back-to-top').addEventListener('click', function (e) {
 			e.preventDefault();
 			const footer = document.querySelector('footer'); // adjust selector if needed

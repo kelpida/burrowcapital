@@ -2301,6 +2301,7 @@ blockquote {
 .slide_scroller-section.slide-1 {
 	color: var(--white);
   background: linear-gradient(335deg, #43E3C7 -74.61%, #1EB090 6.9%, #00366A 84.49%);
+  
 }
 .slide_scroller-section.slide-2 {
   background: linear-gradient(335deg, #43E3C7 -74.61%, #1EB090 6.9%, #00366A 84.49%);
@@ -3733,6 +3734,9 @@ display: inline-block;
   overflow: hidden;
   transform: translate(-101%);
   display: none !important;
+  	transform: translate3d(-101%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg) !important;
+    transform-style: preserve-3d !important;
+
 }
 
 .scene_4 {
@@ -4908,6 +4912,11 @@ justify-content: center;
     height: fit-content;
     border-radius: 8px;
 	z-index: 9994;
+}
+.homepage_banner-wrapper:hover {
+  cursor: pointer;
+  opacity:0.8s !important;
+  opacity: 0.8;
 }
 .homepage_banner-wrapper a {
     justify-content: center;
