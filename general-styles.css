@@ -2959,7 +2959,7 @@ background: linear-gradient(314deg, #43E3C7 -12.93%, #1EB090 7.32%, #044870 45.2
 
 @media (min-width:1024px) {
     .sidebar_menu {
-	background: linear-gradient(335deg, #43E3C7 -74.61%, #1EB090 6.9%, #00366A 84.49%);
+	
 	border-right: 1px solid #21577F;
 }
 }
