@@ -2300,15 +2300,12 @@ blockquote {
 
 .slide_scroller-section.slide-1 {
 	color: var(--white);
-	font-family: ibm-plex-sans, sans-serif;
     background: linear-gradient(335deg, #43E3C7 -74.61%, #1EB090 6.9%, #00366A 84.49%);
       position: relative;
   overflow: hidden;
 }
 .slide_scroller-section.slide-2 {
   background: linear-gradient(335deg, #43E3C7 -74.61%, #1EB090 6.9%, #00366A 84.49%);
-  background-size: 300% 300%;
-  transition: background 1s ease;
 }
 
 .slide_scroller-section.slide-2.scrolling {
@@ -2962,7 +2959,7 @@ background: linear-gradient(314deg, #43E3C7 -12.93%, #1EB090 7.32%, #044870 45.2
 
 @media (min-width:1024px) {
     .sidebar_menu {
-	background: transparent !important;
+	background: linear-gradient(335deg, #43E3C7 -74.61%, #1EB090 6.9%, #00366A 84.49%);
 	border-right: 1px solid #21577F;
 }
 }
@@ -3346,6 +3343,7 @@ gap: 10px;
   font-size: 20px;
   display: flex;
   transform: translate(0);
+  opacity: 0 !important;
 }
 
 .opening_content.scene-3 {
@@ -3846,7 +3844,7 @@ display: inline-block;
   padding-top: 200px;
   position: absolute;
   inset: 0% 0% auto;
-  /* transform: translate(0, 28px); */
+  transform: translate(0, 28px);
 }
 
 .back-link {
