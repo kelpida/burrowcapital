@@ -2920,7 +2920,7 @@ background: linear-gradient(314deg, #43E3C7 -12.93%, #1EB090 7.32%, #044870 45.2
 
   backface-visibility: hidden;
   position: absolute;
-
+  border-radius: 24px;
   left: 0;
   display:flex;
   justify-content:center;
@@ -2938,21 +2938,25 @@ background: linear-gradient(314deg, #43E3C7 -12.93%, #1EB090 7.32%, #044870 45.2
 }
 .image-bubble_circle .front {
   background: #fff;
-  transform: rotateY(0deg);
+   visibility: visible;
+  /* transition: all 0.5s ease-in-out; */
 }
 
 .image-bubble_circle .back {
   text-align: center;
   color: #333333;
-  transform: rotateY(180deg);
+     visibility: hidden;
+  /* transition: all 0.5s ease-in-out; */
 }
 
 .image-bubble_circle:hover .front {
-  transform: rotateY(180deg);
+  /* transform: rotateY(180deg); */
+  visibility: hidden;
 }
 
 .image-bubble_circle:hover .back {
-  transform: rotateY(360deg);
+  /* transform: rotateY(360deg); */
+   visibility: visible;
 }
 
 
@@ -2978,7 +2982,7 @@ background: linear-gradient(314deg, #43E3C7 -12.93%, #1EB090 7.32%, #044870 45.2
 }
 
 .contact_us-wrap {
-  z-index: 9995;
+  z-index: 9995 !important;
   background-color: var(--menu-light);
   -webkit-backdrop-filter: brightness(115%) blur(30px);
   backdrop-filter: brightness(115%) blur(30px);
@@ -2989,7 +2993,7 @@ background: linear-gradient(314deg, #43E3C7 -12.93%, #1EB090 7.32%, #044870 45.2
   position: fixed;
   inset: 0% 0% 0% auto;
   transform: translate(101%);
-  z-index: 9999;
+
 }
 
 .contact_us-wrap.home {
@@ -3161,12 +3165,12 @@ background: linear-gradient(314deg, #43E3C7 -12.93%, #1EB090 7.32%, #044870 45.2
   width: 420px;
   height: auto;
   transform: translateX(0);
-  transition: transform 3s ease-in-out; /* adjust time for slower movement */
+  /* transition: transform 3s ease-in-out; adjust time for slower movement */
 }
 
-.slide-1.scrolling .ity {
+/* .slide-1.scrolling .ity {
   transform: translateX(100%);
-}
+} */
 .side-scroll-wrapper {
   color: var(--white);
   width: 100%;
@@ -4806,7 +4810,8 @@ justify-content: center;
   flex: 1;
   width: 100%;
   height: auto;
-  margin:0 auto
+  margin:0 auto;
+
 }
 
 .cms_dynamic-border-box {
@@ -4906,7 +4911,7 @@ justify-content: center;
     padding: 18px 32px;
     height: fit-content;
     border-radius: 8px;
-	z-index: 9999;
+	z-index: 9994;
 }
 .homepage_banner-wrapper a {
     justify-content: center;
