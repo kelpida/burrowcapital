@@ -13327,241 +13327,241 @@
             ],
             createdOn: 0x1808e6d99cc,
           },
-          "a-21": {
-            id: "a-21",
-            title: "Home Page Scene 3",
-            continuousParameterGroups: [
-              {
-                id: "a-21-p",
-                type: "SCROLL_PROGRESS",
-                parameterLabel: "Scroll",
-                continuousActionGroups: [
-                  {
-                    keyframe: 42,
-                    actionItems: [
-                      {
-                        id: "a-21-n",
-                        actionTypeId: "TRANSFORM_MOVE",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".sub_slider_content-wrapper.scene-3",
-                            selectorGuids: [
-                              "731aae77-e08e-316e-3f7e-986792f29bfa",
-                              "a10897f0-cf4b-cbba-042c-cadae8b0e287",
-                            ],
-                          },
-                          xValue: 100,
-                          xUnit: "%",
-                          yUnit: "PX",
-                          zUnit: "PX",
-                        },
-                      },
-                      {
-                        id: "a-21-n-9",
-                        actionTypeId: "STYLE_OPACITY",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".sub_slider_content-wrapper.scene-3",
-                            selectorGuids: [
-                              "731aae77-e08e-316e-3f7e-986792f29bfa",
-                              "a10897f0-cf4b-cbba-042c-cadae8b0e287",
-                            ],
-                          },
-                          value: 0,
-                          unit: "",
-                        },
-                      },
-                    ],
-                  },
-                  {
-                    keyframe: 45,
-                    actionItems: [
-                      {
-                        id: "a-21-n-2",
-                        actionTypeId: "TRANSFORM_MOVE",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".sub_slider_content-wrapper.scene-3",
-                            selectorGuids: [
-                              "731aae77-e08e-316e-3f7e-986792f29bfa",
-                              "a10897f0-cf4b-cbba-042c-cadae8b0e287",
-                            ],
-                          },
-                          xValue: 0,
-                          xUnit: "%",
-                          yUnit: "PX",
-                          zUnit: "PX",
-                        },
-                      },
-                      {
-                        id: "a-21-n-10",
-                        actionTypeId: "STYLE_OPACITY",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".sub_slider_content-wrapper.scene-3",
-                            selectorGuids: [
-                              "731aae77-e08e-316e-3f7e-986792f29bfa",
-                              "a10897f0-cf4b-cbba-042c-cadae8b0e287",
-                            ],
-                          },
-                          value: 1,
-                          unit: "",
-                        },
-                      },
-                    ],
-                  },
-                  {
-                    keyframe: 47,
-                    actionItems: [
-                      {
-                        id: "a-21-n-5",
-                        actionTypeId: "TRANSFORM_MOVE",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".opening_content.scene-3",
-                            selectorGuids: [
-                              "58eb8eb1-0886-6a6e-c7d3-e9b2d3281b56",
-                              "61534ecb-3707-ceed-0623-3d8f5c6b1ba3",
-                            ],
-                          },
-                          xValue: 0,
-                          xUnit: "%",
-                          yUnit: "PX",
-                          zUnit: "PX",
-                        },
-                      },
-                      {
-                        id: "a-21-n-7",
-                        actionTypeId: "STYLE_OPACITY",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".opening_content.scene-3",
-                            selectorGuids: [
-                              "58eb8eb1-0886-6a6e-c7d3-e9b2d3281b56",
-                              "61534ecb-3707-ceed-0623-3d8f5c6b1ba3",
-                            ],
-                          },
-                          value: 1,
-                          unit: "",
-                        },
-                      },
-                    ],
-                  },
-                  {
-                    keyframe: 48,
-                    actionItems: [
-                      {
-                        id: "a-21-n-3",
-                        actionTypeId: "STYLE_OPACITY",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".scene-3_grid",
-                            selectorGuids: [
-                              "1467f44e-6556-13ab-6907-b9697a72bb1d",
-                            ],
-                          },
-                          value: 0,
-                          unit: "",
-                        },
-                      },
-                    ],
-                  },
-                  {
-                    keyframe: 49,
-                    actionItems: [
-                      {
-                        id: "a-21-n-6",
-                        actionTypeId: "TRANSFORM_MOVE",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".opening_content.scene-3",
-                            selectorGuids: [
-                              "58eb8eb1-0886-6a6e-c7d3-e9b2d3281b56",
-                              "61534ecb-3707-ceed-0623-3d8f5c6b1ba3",
-                            ],
-                          },
-                          xValue: -100,
-                          xUnit: "%",
-                          yUnit: "PX",
-                          zUnit: "PX",
-                        },
-                      },
-                      {
-                        id: "a-21-n-8",
-                        actionTypeId: "STYLE_OPACITY",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".opening_content.scene-3",
-                            selectorGuids: [
-                              "58eb8eb1-0886-6a6e-c7d3-e9b2d3281b56",
-                              "61534ecb-3707-ceed-0623-3d8f5c6b1ba3",
-                            ],
-                          },
-                          value: 0,
-                          unit: "",
-                        },
-                      },
-                      {
-                        id: "a-21-n-4",
-                        actionTypeId: "STYLE_OPACITY",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".scene-3_grid",
-                            selectorGuids: [
-                              "1467f44e-6556-13ab-6907-b9697a72bb1d",
-                            ],
-                          },
-                          value: 1,
-                          unit: "",
-                        },
-                      },
-                    ],
-                  },
-                ],
-              },
-            ],
-            createdOn: 0x18093420b03,
-          },
+          // "a-21": {
+          //   id: "a-21",
+          //   title: "Home Page Scene 3",
+          //   continuousParameterGroups: [
+          //     {
+          //       id: "a-21-p",
+          //       type: "SCROLL_PROGRESS",
+          //       parameterLabel: "Scroll",
+          //       continuousActionGroups: [
+          //         {
+          //           keyframe: 42,
+          //           actionItems: [
+          //             {
+          //               id: "a-21-n",
+          //               actionTypeId: "TRANSFORM_MOVE",
+          //               config: {
+          //                 delay: 0,
+          //                 easing: "",
+          //                 duration: 500,
+          //                 target: {
+          //                   useEventTarget: "CHILDREN",
+          //                   selector: ".sub_slider_content-wrapper.scene-3",
+          //                   selectorGuids: [
+          //                     "731aae77-e08e-316e-3f7e-986792f29bfa",
+          //                     "a10897f0-cf4b-cbba-042c-cadae8b0e287",
+          //                   ],
+          //                 },
+          //                 xValue: 100,
+          //                 xUnit: "%",
+          //                 yUnit: "PX",
+          //                 zUnit: "PX",
+          //               },
+          //             },
+          //             {
+          //               id: "a-21-n-9",
+          //               actionTypeId: "STYLE_OPACITY",
+          //               config: {
+          //                 delay: 0,
+          //                 easing: "",
+          //                 duration: 500,
+          //                 target: {
+          //                   useEventTarget: "CHILDREN",
+          //                   selector: ".sub_slider_content-wrapper.scene-3",
+          //                   selectorGuids: [
+          //                     "731aae77-e08e-316e-3f7e-986792f29bfa",
+          //                     "a10897f0-cf4b-cbba-042c-cadae8b0e287",
+          //                   ],
+          //                 },
+          //                 value: 0,
+          //                 unit: "",
+          //               },
+          //             },
+          //           ],
+          //         },
+          //         {
+          //           keyframe: 45,
+          //           actionItems: [
+          //             {
+          //               id: "a-21-n-2",
+          //               actionTypeId: "TRANSFORM_MOVE",
+          //               config: {
+          //                 delay: 0,
+          //                 easing: "",
+          //                 duration: 500,
+          //                 target: {
+          //                   useEventTarget: "CHILDREN",
+          //                   selector: ".sub_slider_content-wrapper.scene-3",
+          //                   selectorGuids: [
+          //                     "731aae77-e08e-316e-3f7e-986792f29bfa",
+          //                     "a10897f0-cf4b-cbba-042c-cadae8b0e287",
+          //                   ],
+          //                 },
+          //                 xValue: 0,
+          //                 xUnit: "%",
+          //                 yUnit: "PX",
+          //                 zUnit: "PX",
+          //               },
+          //             },
+          //             {
+          //               id: "a-21-n-10",
+          //               actionTypeId: "STYLE_OPACITY",
+          //               config: {
+          //                 delay: 0,
+          //                 easing: "",
+          //                 duration: 500,
+          //                 target: {
+          //                   useEventTarget: "CHILDREN",
+          //                   selector: ".sub_slider_content-wrapper.scene-3",
+          //                   selectorGuids: [
+          //                     "731aae77-e08e-316e-3f7e-986792f29bfa",
+          //                     "a10897f0-cf4b-cbba-042c-cadae8b0e287",
+          //                   ],
+          //                 },
+          //                 value: 1,
+          //                 unit: "",
+          //               },
+          //             },
+          //           ],
+          //         },
+          //         {
+          //           keyframe: 47,
+          //           actionItems: [
+          //             {
+          //               id: "a-21-n-5",
+          //               actionTypeId: "TRANSFORM_MOVE",
+          //               config: {
+          //                 delay: 0,
+          //                 easing: "",
+          //                 duration: 500,
+          //                 target: {
+          //                   useEventTarget: "CHILDREN",
+          //                   selector: ".opening_content.scene-3",
+          //                   selectorGuids: [
+          //                     "58eb8eb1-0886-6a6e-c7d3-e9b2d3281b56",
+          //                     "61534ecb-3707-ceed-0623-3d8f5c6b1ba3",
+          //                   ],
+          //                 },
+          //                 xValue: 0,
+          //                 xUnit: "%",
+          //                 yUnit: "PX",
+          //                 zUnit: "PX",
+          //               },
+          //             },
+          //             {
+          //               id: "a-21-n-7",
+          //               actionTypeId: "STYLE_OPACITY",
+          //               config: {
+          //                 delay: 0,
+          //                 easing: "",
+          //                 duration: 500,
+          //                 target: {
+          //                   useEventTarget: "CHILDREN",
+          //                   selector: ".opening_content.scene-3",
+          //                   selectorGuids: [
+          //                     "58eb8eb1-0886-6a6e-c7d3-e9b2d3281b56",
+          //                     "61534ecb-3707-ceed-0623-3d8f5c6b1ba3",
+          //                   ],
+          //                 },
+          //                 value: 1,
+          //                 unit: "",
+          //               },
+          //             },
+          //           ],
+          //         },
+          //         {
+          //           keyframe: 48,
+          //           actionItems: [
+          //             {
+          //               id: "a-21-n-3",
+          //               actionTypeId: "STYLE_OPACITY",
+          //               config: {
+          //                 delay: 0,
+          //                 easing: "",
+          //                 duration: 500,
+          //                 target: {
+          //                   useEventTarget: "CHILDREN",
+          //                   selector: ".scene-3_grid",
+          //                   selectorGuids: [
+          //                     "1467f44e-6556-13ab-6907-b9697a72bb1d",
+          //                   ],
+          //                 },
+          //                 value: 0,
+          //                 unit: "",
+          //               },
+          //             },
+          //           ],
+          //         },
+          //         {
+          //           keyframe: 49,
+          //           actionItems: [
+          //             {
+          //               id: "a-21-n-6",
+          //               actionTypeId: "TRANSFORM_MOVE",
+          //               config: {
+          //                 delay: 0,
+          //                 easing: "",
+          //                 duration: 500,
+          //                 target: {
+          //                   useEventTarget: "CHILDREN",
+          //                   selector: ".opening_content.scene-3",
+          //                   selectorGuids: [
+          //                     "58eb8eb1-0886-6a6e-c7d3-e9b2d3281b56",
+          //                     "61534ecb-3707-ceed-0623-3d8f5c6b1ba3",
+          //                   ],
+          //                 },
+          //                 xValue: -100,
+          //                 xUnit: "%",
+          //                 yUnit: "PX",
+          //                 zUnit: "PX",
+          //               },
+          //             },
+          //             {
+          //               id: "a-21-n-8",
+          //               actionTypeId: "STYLE_OPACITY",
+          //               config: {
+          //                 delay: 0,
+          //                 easing: "",
+          //                 duration: 500,
+          //                 target: {
+          //                   useEventTarget: "CHILDREN",
+          //                   selector: ".opening_content.scene-3",
+          //                   selectorGuids: [
+          //                     "58eb8eb1-0886-6a6e-c7d3-e9b2d3281b56",
+          //                     "61534ecb-3707-ceed-0623-3d8f5c6b1ba3",
+          //                   ],
+          //                 },
+          //                 value: 0,
+          //                 unit: "",
+          //               },
+          //             },
+          //             {
+          //               id: "a-21-n-4",
+          //               actionTypeId: "STYLE_OPACITY",
+          //               config: {
+          //                 delay: 0,
+          //                 easing: "",
+          //                 duration: 500,
+          //                 target: {
+          //                   useEventTarget: "CHILDREN",
+          //                   selector: ".scene-3_grid",
+          //                   selectorGuids: [
+          //                     "1467f44e-6556-13ab-6907-b9697a72bb1d",
+          //                   ],
+          //                 },
+          //                 value: 1,
+          //                 unit: "",
+          //               },
+          //             },
+          //           ],
+          //         },
+          //       ],
+          //     },
+          //   ],
+          //   createdOn: 0x18093420b03,
+          // },
           "a-22": {
             id: "a-22",
             title: "Home Page Scene 4 Pt 1",
