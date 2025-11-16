@@ -2300,9 +2300,7 @@ blockquote {
 
 .slide_scroller-section.slide-1 {
 	color: var(--white);
-    background: linear-gradient(335deg, #43E3C7 -74.61%, #1EB090 6.9%, #00366A 84.49%);
-      position: relative;
-  overflow: hidden;
+  background: linear-gradient(335deg, #43E3C7 -74.61%, #1EB090 6.9%, #00366A 84.49%);
 }
 .slide_scroller-section.slide-2 {
   background: linear-gradient(335deg, #43E3C7 -74.61%, #1EB090 6.9%, #00366A 84.49%);
@@ -3099,7 +3097,7 @@ background: linear-gradient(314deg, #43E3C7 -12.93%, #1EB090 7.32%, #044870 45.2
   width: auto;
   height: 290px;
   position: relative;
-  transform: translate(0);
+
 }
 
 .bg-animate {
@@ -3781,9 +3779,9 @@ display: inline-block;
 .scene-4_b2b-content {
   z-index: 1;
   width: 100%;
-  max-width: 70vw;
+  /* max-width: 70vw; */
   height: 100%;
-  max-height: 80vh;
+  /* max-height: 80vh; */
   position: relative;
 }
 

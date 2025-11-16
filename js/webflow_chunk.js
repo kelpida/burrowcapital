@@ -14116,142 +14116,142 @@
                       },
                     ],
                   },
-                  {
-                    keyframe: 61,
-                    actionItems: [
-                      {
-                        id: "a-23-n-26",
-                        actionTypeId: "TRANSFORM_MOVE",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".slider_body-text.slide-7-intro-text",
-                            selectorGuids: [
-                              "c707a431-6579-c253-9cb2-2d9ff05aedb4",
-                              "57b9d46f-ebf6-3b3f-c08e-04953cf1ee1a",
-                            ],
-                          },
-                          yValue: 0,
-                          xUnit: "PX",
-                          yUnit: "px",
-                          zUnit: "PX",
-                        },
-                      },
-                      {
-                        id: "a-23-n-28",
-                        actionTypeId: "STYLE_OPACITY",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".slider_body-text.slide-7-intro-text",
-                            selectorGuids: [
-                              "c707a431-6579-c253-9cb2-2d9ff05aedb4",
-                              "57b9d46f-ebf6-3b3f-c08e-04953cf1ee1a",
-                            ],
-                          },
-                          value: 1,
-                          unit: "",
-                        },
-                      },
-                      {
-                        id: "a-23-n-30",
-                        actionTypeId: "TRANSFORM_MOVE",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector:
-                              ".slider_body-text.slide-7-colour-text.investments",
-                            selectorGuids: [
-                              "c707a431-6579-c253-9cb2-2d9ff05aedb4",
-                              "58830f80-4fc0-3589-b6fb-80b7ff76762a",
-                              "4d1c5be1-b35b-d345-841a-81f521a9f565",
-                            ],
-                          },
-                          yValue: 0,
-                          xUnit: "PX",
-                          yUnit: "px",
-                          zUnit: "PX",
-                        },
-                      },
-                    ],
-                  },
-                  {
-                    keyframe: 63,
-                    actionItems: [
-                      {
-                        id: "a-23-n-29",
-                        actionTypeId: "STYLE_OPACITY",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".slider_body-text.slide-7-intro-text",
-                            selectorGuids: [
-                              "c707a431-6579-c253-9cb2-2d9ff05aedb4",
-                              "57b9d46f-ebf6-3b3f-c08e-04953cf1ee1a",
-                            ],
-                          },
-                          value: 0,
-                          unit: "",
-                        },
-                      },
-                      {
-                        id: "a-23-n-31",
-                        actionTypeId: "TRANSFORM_MOVE",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector:
-                              ".slider_body-text.slide-7-colour-text.investments",
-                            selectorGuids: [
-                              "c707a431-6579-c253-9cb2-2d9ff05aedb4",
-                              "58830f80-4fc0-3589-b6fb-80b7ff76762a",
-                              "4d1c5be1-b35b-d345-841a-81f521a9f565",
-                            ],
-                          },
-                          yValue: -200,
-                          xUnit: "PX",
-                          yUnit: "px",
-                          zUnit: "PX",
-                        },
-                      },
-                      {
-                        id: "a-23-n-27",
-                        actionTypeId: "TRANSFORM_MOVE",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".slider_body-text.slide-7-intro-text",
-                            selectorGuids: [
-                              "c707a431-6579-c253-9cb2-2d9ff05aedb4",
-                              "57b9d46f-ebf6-3b3f-c08e-04953cf1ee1a",
-                            ],
-                          },
-                          yValue: -200,
-                          xUnit: "PX",
-                          yUnit: "px",
-                          zUnit: "PX",
-                        },
-                      },
-                    ],
-                  },
+                  // {
+                  //   keyframe: 61,
+                  //   actionItems: [
+                  //     {
+                  //       id: "a-23-n-26",
+                  //       actionTypeId: "TRANSFORM_MOVE",
+                  //       config: {
+                  //         delay: 0,
+                  //         easing: "",
+                  //         duration: 500,
+                  //         target: {
+                  //           useEventTarget: "CHILDREN",
+                  //           selector: ".slider_body-text.slide-7-intro-text",
+                  //           selectorGuids: [
+                  //             "c707a431-6579-c253-9cb2-2d9ff05aedb4",
+                  //             "57b9d46f-ebf6-3b3f-c08e-04953cf1ee1a",
+                  //           ],
+                  //         },
+                  //         yValue: 0,
+                  //         xUnit: "PX",
+                  //         yUnit: "px",
+                  //         zUnit: "PX",
+                  //       },
+                  //     },
+                  //     {
+                  //       id: "a-23-n-28",
+                  //       actionTypeId: "STYLE_OPACITY",
+                  //       config: {
+                  //         delay: 0,
+                  //         easing: "",
+                  //         duration: 500,
+                  //         target: {
+                  //           useEventTarget: "CHILDREN",
+                  //           selector: ".slider_body-text.slide-7-intro-text",
+                  //           selectorGuids: [
+                  //             "c707a431-6579-c253-9cb2-2d9ff05aedb4",
+                  //             "57b9d46f-ebf6-3b3f-c08e-04953cf1ee1a",
+                  //           ],
+                  //         },
+                  //         value: 1,
+                  //         unit: "",
+                  //       },
+                  //     },
+                  //     {
+                  //       id: "a-23-n-30",
+                  //       actionTypeId: "TRANSFORM_MOVE",
+                  //       config: {
+                  //         delay: 0,
+                  //         easing: "",
+                  //         duration: 500,
+                  //         target: {
+                  //           useEventTarget: "CHILDREN",
+                  //           selector:
+                  //             ".slider_body-text.slide-7-colour-text.investments",
+                  //           selectorGuids: [
+                  //             "c707a431-6579-c253-9cb2-2d9ff05aedb4",
+                  //             "58830f80-4fc0-3589-b6fb-80b7ff76762a",
+                  //             "4d1c5be1-b35b-d345-841a-81f521a9f565",
+                  //           ],
+                  //         },
+                  //         yValue: 0,
+                  //         xUnit: "PX",
+                  //         yUnit: "px",
+                  //         zUnit: "PX",
+                  //       },
+                  //     },
+                  //   ],
+                  // },
+                  // {
+                  //   keyframe: 63,
+                  //   actionItems: [
+                  //     {
+                  //       id: "a-23-n-29",
+                  //       actionTypeId: "STYLE_OPACITY",
+                  //       config: {
+                  //         delay: 0,
+                  //         easing: "",
+                  //         duration: 500,
+                  //         target: {
+                  //           useEventTarget: "CHILDREN",
+                  //           selector: ".slider_body-text.slide-7-intro-text",
+                  //           selectorGuids: [
+                  //             "c707a431-6579-c253-9cb2-2d9ff05aedb4",
+                  //             "57b9d46f-ebf6-3b3f-c08e-04953cf1ee1a",
+                  //           ],
+                  //         },
+                  //         value: 0,
+                  //         unit: "",
+                  //       },
+                  //     },
+                  //     {
+                  //       id: "a-23-n-31",
+                  //       actionTypeId: "TRANSFORM_MOVE",
+                  //       config: {
+                  //         delay: 0,
+                  //         easing: "",
+                  //         duration: 500,
+                  //         target: {
+                  //           useEventTarget: "CHILDREN",
+                  //           selector:
+                  //             ".slider_body-text.slide-7-colour-text.investments",
+                  //           selectorGuids: [
+                  //             "c707a431-6579-c253-9cb2-2d9ff05aedb4",
+                  //             "58830f80-4fc0-3589-b6fb-80b7ff76762a",
+                  //             "4d1c5be1-b35b-d345-841a-81f521a9f565",
+                  //           ],
+                  //         },
+                  //         yValue: -200,
+                  //         xUnit: "PX",
+                  //         yUnit: "px",
+                  //         zUnit: "PX",
+                  //       },
+                  //     },
+                  //     {
+                  //       id: "a-23-n-27",
+                  //       actionTypeId: "TRANSFORM_MOVE",
+                  //       config: {
+                  //         delay: 0,
+                  //         easing: "",
+                  //         duration: 500,
+                  //         target: {
+                  //           useEventTarget: "CHILDREN",
+                  //           selector: ".slider_body-text.slide-7-intro-text",
+                  //           selectorGuids: [
+                  //             "c707a431-6579-c253-9cb2-2d9ff05aedb4",
+                  //             "57b9d46f-ebf6-3b3f-c08e-04953cf1ee1a",
+                  //           ],
+                  //         },
+                  //         yValue: -200,
+                  //         xUnit: "PX",
+                  //         yUnit: "px",
+                  //         zUnit: "PX",
+                  //       },
+                  //     },
+                  //   ],
+                  // },
                   {
                     keyframe: 76,
                     actionItems: [
@@ -14336,29 +14336,29 @@
                       },
                     ],
                   },
-                  {
-                    keyframe: 78,
-                    actionItems: [
-                      {
-                        id: "a-23-n-14",
-                        actionTypeId: "STYLE_OPACITY",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".comerce-text",
-                            selectorGuids: [
-                              "3a1e7d36-9c65-f62c-bd57-4945cc84bd4f",
-                            ],
-                          },
-                          value: 0,
-                          unit: "",
-                        },
-                      },
-                    ],
-                  },
+                  // {
+                  //   keyframe: 78,
+                  //   actionItems: [
+                  //     {
+                  //       id: "a-23-n-14",
+                  //       actionTypeId: "STYLE_OPACITY",
+                  //       config: {
+                  //         delay: 0,
+                  //         easing: "",
+                  //         duration: 500,
+                  //         target: {
+                  //           useEventTarget: "CHILDREN",
+                  //           selector: ".comerce-text",
+                  //           selectorGuids: [
+                  //             "3a1e7d36-9c65-f62c-bd57-4945cc84bd4f",
+                  //           ],
+                  //         },
+                  //         value: 0,
+                  //         unit: "",
+                  //       },
+                  //     },
+                  //   ],
+                  // },
                   {
                     keyframe: 80,
                     actionItems: [
@@ -14380,46 +14380,46 @@
                           unit: "",
                         },
                       },
-                      {
-                        id: "a-23-n-7",
-                        actionTypeId: "TRANSFORM_MOVE",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".slider_body-text.slide-7-intro-text",
-                            selectorGuids: [
-                              "c707a431-6579-c253-9cb2-2d9ff05aedb4",
-                              "57b9d46f-ebf6-3b3f-c08e-04953cf1ee1a",
-                            ],
-                          },
-                          yValue: -100,
-                          xUnit: "PX",
-                          yUnit: "px",
-                          zUnit: "PX",
-                        },
-                      },
-                      {
-                        id: "a-23-n-9",
-                        actionTypeId: "STYLE_OPACITY",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".slider_body-text.slide-7-intro-text",
-                            selectorGuids: [
-                              "c707a431-6579-c253-9cb2-2d9ff05aedb4",
-                              "57b9d46f-ebf6-3b3f-c08e-04953cf1ee1a",
-                            ],
-                          },
-                          value: 0,
-                          unit: "",
-                        },
-                      },
+                      // {
+                      //   id: "a-23-n-7",
+                      //   actionTypeId: "TRANSFORM_MOVE",
+                      //   config: {
+                      //     delay: 0,
+                      //     easing: "",
+                      //     duration: 500,
+                      //     target: {
+                      //       useEventTarget: "CHILDREN",
+                      //       selector: ".slider_body-text.slide-7-intro-text",
+                      //       selectorGuids: [
+                      //         "c707a431-6579-c253-9cb2-2d9ff05aedb4",
+                      //         "57b9d46f-ebf6-3b3f-c08e-04953cf1ee1a",
+                      //       ],
+                      //     },
+                      //     yValue: -100,
+                      //     xUnit: "PX",
+                      //     yUnit: "px",
+                      //     zUnit: "PX",
+                      //   },
+                      // },
+                      // {
+                      //   id: "a-23-n-9",
+                      //   actionTypeId: "STYLE_OPACITY",
+                      //   config: {
+                      //     delay: 0,
+                      //     easing: "",
+                      //     duration: 500,
+                      //     target: {
+                      //       useEventTarget: "CHILDREN",
+                      //       selector: ".slider_body-text.slide-7-intro-text",
+                      //       selectorGuids: [
+                      //         "c707a431-6579-c253-9cb2-2d9ff05aedb4",
+                      //         "57b9d46f-ebf6-3b3f-c08e-04953cf1ee1a",
+                      //       ],
+                      //     },
+                      //     value: 0,
+                      //     unit: "",
+                      //   },
+                      // },
                       {
                         id: "a-23-n-15",
                         actionTypeId: "STYLE_OPACITY",
@@ -14765,24 +14765,24 @@
                           zUnit: "PX",
                         },
                       },
-                      {
-                        id: "a-24-n-24",
-                        actionTypeId: "STYLE_OPACITY",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".comerce-text",
-                            selectorGuids: [
-                              "3a1e7d36-9c65-f62c-bd57-4945cc84bd4f",
-                            ],
-                          },
-                          value: 1,
-                          unit: "",
-                        },
-                      },
+                      // {
+                      //   id: "a-24-n-24",
+                      //   actionTypeId: "STYLE_OPACITY",
+                      //   config: {
+                      //     delay: 0,
+                      //     easing: "",
+                      //     duration: 500,
+                      //     target: {
+                      //       useEventTarget: "CHILDREN",
+                      //       selector: ".comerce-text",
+                      //       selectorGuids: [
+                      //         "3a1e7d36-9c65-f62c-bd57-4945cc84bd4f",
+                      //       ],
+                      //     },
+                      //     value: 1,
+                      //     unit: "",
+                      //   },
+                      // },
                       {
                         id: "a-24-n-26",
                         actionTypeId: "STYLE_OPACITY",
@@ -14864,24 +14864,24 @@
                           unit: "",
                         },
                       },
-                      {
-                        id: "a-24-n-25",
-                        actionTypeId: "STYLE_OPACITY",
-                        config: {
-                          delay: 0,
-                          easing: "",
-                          duration: 500,
-                          target: {
-                            useEventTarget: "CHILDREN",
-                            selector: ".comerce-text",
-                            selectorGuids: [
-                              "3a1e7d36-9c65-f62c-bd57-4945cc84bd4f",
-                            ],
-                          },
-                          value: 0,
-                          unit: "",
-                        },
-                      },
+                      // {
+                      //   id: "a-24-n-25",
+                      //   actionTypeId: "STYLE_OPACITY",
+                      //   config: {
+                      //     delay: 0,
+                      //     easing: "",
+                      //     duration: 500,
+                      //     target: {
+                      //       useEventTarget: "CHILDREN",
+                      //       selector: ".comerce-text",
+                      //       selectorGuids: [
+                      //         "3a1e7d36-9c65-f62c-bd57-4945cc84bd4f",
+                      //       ],
+                      //     },
+                      //     value: 0,
+                      //     unit: "",
+                      //   },
+                      // },
                       {
                         id: "a-24-n-27",
                         actionTypeId: "STYLE_OPACITY",
