@@ -2300,11 +2300,20 @@ blockquote {
 
 .slide_scroller-section.slide-1 {
 	color: var(--white);
-  background: linear-gradient(335deg, #43E3C7 -74.61%, #1EB090 6.9%, #00366A 84.49%);
+background: linear-gradient(to bottom,
+    #1c8d7f 0%,
+    #0f5d7a 50%,
+    #08396a 100%
+);
   
 }
 .slide_scroller-section.slide-2 {
-  background: linear-gradient(335deg, #43E3C7 -74.61%, #1EB090 6.9%, #00366A 84.49%);
+ background: linear-gradient(to bottom,
+    #1c8d7f 0%,
+    #0f5d7a 50%,
+    #08396a 100%
+);
+
 }
 
 .slide_scroller-section.slide-2.scrolling {
@@ -2318,7 +2327,11 @@ blockquote {
 }
 
 .slide_scroller-section.slide-3 {
-background: linear-gradient(314deg, #43E3C7 -12.93%, #1EB090 7.32%, #044870 45.27%, #00366A 54.74%);
+background: linear-gradient(to bottom,
+    #1c8d7f 0%,
+    #0f5d7a 50%,
+    #08396a 100%
+);
 
 }
 .slide-3 p.info,
@@ -4141,6 +4154,7 @@ justify-content: center;
 .background {
   z-index: -1;
   background-color: var(--infinity-blue);
+  background-image: url("./images/bg.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;

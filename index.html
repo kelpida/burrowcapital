@@ -1014,7 +1014,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="home_scroll-wheel">
 			<div class="scroll_wheel-rotate">
 				<img src="./images/scroller.png" loading="lazy" data-w-id="72cc985e-1c05-5096-4b18-2f0ed3c74686" />
@@ -1030,7 +1030,7 @@
 					class="back-image" /></a>
 		</div>
 	</div>
-
+	<div id="endOfScreen"></div>
 	</div>
 	<div class="back-hide">
 		<img src="./images/logos/icon.svg" loading="lazy" alt="Burrow Capital" class="image-20" />
@@ -1092,22 +1092,12 @@
 			});
 			document.querySelector('.openContactBtn').addEventListener('click', function (e) {
 				e.preventDefault();
-				const wrap = document.querySelector('.contact_us-wrap.home');
-				// const back = document.querySelector('.back-link');
-				// console.log("back",back);
-				
-				if (wrap) {
-					wrap.style.transform = 'translateX(0)';
-					wrap.style.background = "#00366A";
-					wrap.style.width = "calc(100vw - 105px)"
+				const end = document.getElementById('endOfScreen');
+				if (end) {
+					end.scrollIntoView({ behavior: 'smooth' });
 				}
-				// if (back) {
-				// 	back.style.opacity = 1;
-				// 	back.style.width = "100%";
-				// 	back.style.height = "100%";
-				// }
-				
 			});
+
 		});
 		document.querySelector('.scene_3').remove();
 		document.querySelector('.back-to-top').addEventListener('click', function (e) {
